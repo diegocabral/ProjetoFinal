@@ -156,16 +156,31 @@ section h2 {
 		border: 1px solid #ccc;
 	}
 
-	#gerais1, #gerais2, #gerais3 {
+	#gerais1, #gerais2, #gerais3{
 		float: left;
 		width: 32%;
-
 		border: 1px solid #ccc;
 		height: 320px;
 	}
 
 	#gerais2 img {
 		margin-left: 23%;
+	}
+
+	#image1, #image2{
+		float: left;
+		width: 48%;
+		height: 320px;
+		margin-left: 10px;
+		border: 1px solid #ccc;
+	}
+
+	#image3{
+		float: left;
+		width: 99%;
+		height: 320px;
+		margin-left: 10px;
+		border: 1px solid #ccc;
 	}
 
 	.depoimentos {
@@ -206,7 +221,7 @@ section h2 {
 		width: 100%;
 	}
 
-	input[type=text], textarea {
+	input[type=text], input[type=email], textarea {
 	    width: 100%;
 	    padding: 12px 20px;
 	    margin: 8px 0;
@@ -226,7 +241,6 @@ section h2 {
 	    display: inline-block;
 	    font-size: 16px;
 	}
-
 
 	.detalhes, .map {
 	    width: 49.1%;
